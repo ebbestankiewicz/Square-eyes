@@ -786,7 +786,8 @@ a{
     position: relative;
 }
 
-.about_us h1{
+.about_us h1, 
+.about_us p{
     color: white;
     position: relative;
     left: 50%;
@@ -795,27 +796,32 @@ a{
     font-size: 22px;
     margin-top: 0px;
     width: 55%;
+    font-weight: 600;
 }
 
 .movie_film h1{
     top: 40px;
 }
 
-.old_tv h1{
+.old_tv p{
     top: 100px;
 }
 
-.take_one h1{
+.take_one p{
     top: 50px;
 }
 
-.film_camera h1{
+.film_camera p{
     top: 360px;
 }
 
-.old_tv h1, 
-.film_camera h1{
+.old_tv p, 
+.film_camera p{
     text-align: center;
+}
+
+.film_camera{
+    margin-bottom: -1px;
 }
 
 .film_camera{
