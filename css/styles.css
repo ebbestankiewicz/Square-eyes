@@ -623,7 +623,7 @@ a{
 .movie_info{
     z-index: 999;
     position: relative;
-    top: -450px;
+    top: 240px;
 }
 
 .movie_cover img{
@@ -652,10 +652,15 @@ a{
     color: white;
 }
 
-.cast, 
+.cast{
+    position: relative;
+    margin-top: 300px;
+}
+
+
 .also_like{
     position: relative;
-    top: -450px;
+    margin-top: 20px;
 }
 
 .title{
