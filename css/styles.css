@@ -122,6 +122,10 @@ nav li{
     height: auto;
 }
 
+.bottom_nav_footer{
+    width: 100%;
+}
+
 .logo{
     width: 110px;
     height: auto;
