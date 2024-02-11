@@ -926,9 +926,11 @@ a{
 
 /*Cart 2 Payment page*/
 
-.payment_method form{
-    display: flex;
-    justify-content: center;
+.payment_method{
+    width: 290px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .payment_method_button{
@@ -937,11 +939,7 @@ a{
 
 .payment_method_button, 
 .payment_method_button label, 
-.arrow_position i, 
-.arrow_position_active i, 
-.visa, 
-.mastercard, 
-.add_card{
+.arrow_position i{
     position: relative;
 }
 
@@ -952,50 +950,50 @@ a{
 }
 
 .closed_button{
-    margin-bottom: 50px;
+    margin-bottom: -180px;
 }
 
 
 .active_button{
-    height: 175px !important;
-}
-
-.visa input, 
-.mastercard input{
-    border: 1px solid !important;
-    width: 250px !important;
-    height: 35px !important;
-}
-
-.visa label, 
-.mastercard label{
-    left: -33px;
-    font-size: 15px;
-    font-weight: 200;
+    padding-bottom: 200px;
+    padding-top: 15px;
+    margin-top: -5px;
 }
 
 .arrow_position i{
     color: orange;
-    right: -270px;
-    top: 2px;
+    right: -255px;
+    top: 10px;
 }
 
-.arrow_position_active i{
-    right: -270px;
-    top: 2px;
+.mastercard, 
+.visacard{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    top: 10px;
+    margin-top: 10px;
 }
 
-.visa, 
-.mastercard{
-    margin-top: 25px;
-    left: 75px;
+.master i, 
+.visa{
+    color: #000000;
+    top: 16px;
+    position: relative;
+    margin-right: 10px;
 }
 
 .add_card{
     margin-top: 15px;
-    left: 30px;
+    left: 35px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .add_card p{
@@ -1012,6 +1010,9 @@ a{
     border: none;
     left: 50%;
     transform: translateX(-50%);
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 /*Cart 3 Payment page*/
