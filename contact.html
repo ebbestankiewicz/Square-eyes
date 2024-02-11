@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shop, browse and watch movies with Square Eyes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Eyes | Contact</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/080c4fb36f.js" crossorigin="anonymous"></script>
+</head>
+<body class="contact_body">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/SquareEyes_Logo.png" alt="Logo of Squareeyes.com" class="logo"></a>
+        </div>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="hamburger-icon"><i class="fa-solid fa-bars fa-xl"></i></label>
+        <div class="shopping-cart">
+            <a href="shoppingbag.html"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #000000;"></i>
+                        Home
+                    </a>
+                    <a href="videos.html">
+                        <i class="fa-sharp fa-solid fa-film fa-sm" style="color: #000000;"></i>
+                        Videos
+                    </a>
+                    <a href="about.html">
+                        <i class="fa-sharp fa-solid fa-circle-info fa-sm" style="color: #000000;"></i>
+                        About
+                    </a>
+                    <a href="contact.html">
+                        <i class="fa-sharp fa-solid fa-circle-question fa-sm" style="color: #000000;"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact_main">
+        <div class="contact_header">
+            <h1>Contact Us</h1>
+            <h2>Any questions or remarks? Just write us a message</h2>
+        </div>
+        <section class="contact_container">
+            <div class="contact_info">
+                <h2>Contact Information</h2>
+                <h3>Say something to start a chat!</h3>
+                <h4>
+                    <i class="fa-solid fa-phone-volume" style="color: #000000;"></i>
+                    123 45 678
+                </h4>
+                <h4>
+                    <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                    Squareeyes@gmail.com
+                </h4>
+                <h4>
+                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    Melkeveien 2067
+                </h4>
+            </div>
+            <div class="contact_details">
+                <form action="POST">
+                    <div class="personal_info">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" name="name"/>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="phonenumber" id="number">
+                    </div>
+                    <div class="subject">
+                        <h3>Select subject?</h3>
+                        <div class="subject_selector">
+                            <div class="test">
+                                <input type="checkbox" name="help" id="help">
+                                <label for="help">Payment</label>
+                            </div>
+                            <div class="test">
+                                <input type="checkbox" name="help" id="help">
+                                <label for="help">Video Player</label>
+                            </div>
+                            <div class="test">
+                                <input type="checkbox" name="help" id="help">
+                                <label for="help">Creators</label>
+                            </div>
+                            <div class="test">
+                                <input type="checkbox" name="help" id="help">
+                                <label for="help">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email_form">
+                        <label for="message">Write your message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="cta_contact">
+                </form>
+            </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="footer_logo">
+            <a href="index.html"><img src="images/SquareEyes_Logo.png" alt="Logo of Squareeyes.com" class="footer.logo"></a>
+        </div>
+        <div class="footer_nav">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="videos.html">Videos</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </li>
+        </div>
+        <div class="footer_icon">
+            <div>
+                <h4>Follow us</h4>
+            </div>
+            <div class="some_icon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i>
+                <i class="fa-brands fa-square-facebook fa-2xl" style="color: #000000;"></i>
+                <i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i>
+                <i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div>
+                <h4>Download the app</h4>
+            </div>
+            <div class="app_icon">
+                <i class="fa-brands fa-apple fa-2xl" style="color: #000000;"></i>
+                <i class="fa-brands fa-google fa-2xl" style="color: #000000;"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
