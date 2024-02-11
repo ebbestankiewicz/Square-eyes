@@ -137,7 +137,8 @@ nav li{
     transform: translateX(-50%);
 }
 
-h1 span{
+h1 span, 
+h1 .about_us p{
     color: orange;
 }
 
@@ -1263,7 +1264,8 @@ a{
         font-size: 15px;
     }
 
-    .about_us h1{
+    .about_us h1, 
+    .about_us p{
         font-size: 30px;
     }
 }
@@ -1352,7 +1354,8 @@ a{
         min-height: 95vh;
     }
 
-    .about_us h1{
+    .about_us h1, 
+    .about_us p{
         font-size: 40px;
     }
 }
@@ -1480,7 +1483,8 @@ a{
         min-height: 110vh;
     }
 
-    .about_us h1{
+    .about_us h1, 
+    .about_us p{
         font-size: 50px;
     }
 }
@@ -1518,7 +1522,8 @@ a{
         min-height: 160vh;
     }
 
-    .about_us h1{
+    .about_us h1, 
+    .about_us p{
         font-size: 70px;
     }
 }
