@@ -803,20 +803,20 @@ a{
     top: 40px;
 }
 
-.old_tv p{
+.old_tv h1{
     top: 100px;
 }
 
-.take_one p{
+.take_one h1{
     top: 50px;
 }
 
-.film_camera p{
+.film_camera h1{
     top: 360px;
 }
 
-.old_tv p, 
-.film_camera p{
+.old_tv h1, 
+.film_camera h1{
     text-align: center;
 }
 
